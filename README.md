@@ -67,3 +67,7 @@ INTERFACES="enp3s0"
 ```
 sudo systemctl start isc-dhcp-server
 ```
+7. Просмотреть подключения можно в файле ```/var/lib/dhcp/dhcpd.leases```.
+```
+cat /var/lib/dhcp/dhcpd.leases
+```
